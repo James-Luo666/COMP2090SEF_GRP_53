@@ -14,7 +14,7 @@ Date:2026-03-08
 
 1.1 New Data Structure: Heap
   - tree-based data structure
-  - following a specific order relative to its childern
+  - following a specific order relative to its children
 
 1.2 New Algorithm: Heap Sort
   - a comparison-based sort algorithm
