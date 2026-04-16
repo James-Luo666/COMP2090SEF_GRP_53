@@ -31,6 +31,7 @@ Development Status：
 
 --1.0--- Time：2026.3.8 ----Status：Pre-submission
 --2.0--- Time：2026.4.17 ---Status：Final-submission
+Project Introduction Video: https://youtu.be/i6Jv8D5gtms?si=nrToLBCEtLfSe6qZ
 
 How to use：
                                               Step 1: Download the Code from GitHub
