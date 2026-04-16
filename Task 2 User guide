@@ -1,7 +1,13 @@
 Open the py file in VS Code or application or website that can run Python code
 Press "Run" button
+
 For the Minimum Heap program
-You may type in the data in integer one by one
+Type in the data in integer one by one
 After inputting one data, press enter and type the second one
 After you type all the data you need to type, Input "-1" for ending the input section
 The program will give out the smallest and the second smallest result
+
+For the Heap Sort program
+Typr in all the data you want to type in in a space-seperated form, like[2 4 5 6 1 3]
+Do not type in one by one or with a "," between each data
+The program will give out an array of the data you type in in ascending order
