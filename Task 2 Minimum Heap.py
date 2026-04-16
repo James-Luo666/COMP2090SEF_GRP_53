@@ -30,15 +30,6 @@ class MinHeap:
             self.arr[i], self.arr[p] = self.arr[p], self.arr[i]
             i = p
 
-    # Decrease the value of a key at a specific index
-    def decrease_key(self, i, new_val):
-        self.arr[i] = new_val
-        
-        # Switch the position of the index while the lower index is smaller than the upper index
-        while i != 0 and self.arr[self.parent(i)] > self.arr[i]:
-            p = self.parent(i)
-            self.arr[i], self.arr[p] = self.arr[p], self.arr[i]
-            i = p
 
     # Remove and return the root (minimum) element
     def extract_min(self):
@@ -51,14 +42,6 @@ class MinHeap:
         self.min_heapify(0)
         return res
 
-    # Delete a key at index i by forcing it to root and extracting
-    def delete_key(self, i):
-      
-        # Use negative infinity to ensure it becomes the new root
-        self.decrease_key(i, -float('inf'))
-        
-        # Remove the forced root
-        self.extract_min()
 
     # Recursive method to fix the heap property downwards
     def min_heapify(self, i):
@@ -76,6 +59,7 @@ class MinHeap:
 
 # --- Execution ---
 h = MinHeap()
+
 a = int(input("Enter a number. if you want to stop, enter -1:"))
 while a != -1:
     h.insert(a)
