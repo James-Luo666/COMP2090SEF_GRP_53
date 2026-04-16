@@ -1,0 +1,7 @@
+Open the py file in VS Code or application or website that can run Python code
+Press "Run" button
+For the Minimum Heap program
+You may type in the data in integer one by one
+After inputting one data, press enter and type the second one
+After you type all the data you need to type, Input "-1" for ending the input section
+The program will give out the smallest and the second smallest result
