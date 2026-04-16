@@ -1,4 +1,4 @@
-Task2:Self-Study Project - Binary Tree + Heap Sort
+Task2:Self-Study Project - Minimum Heap + Heap Sort
 
 Course:COMP2090SEF
 
@@ -12,7 +12,7 @@ Date:2026-03-08
 
 1.Topic Justification
 
-1.1 New Data Structure: Heap
+1.1 New Data Structure: Minimmum Heap
   - tree-based data structure
   - following a specific order relative to its children
 
